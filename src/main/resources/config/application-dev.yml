@@ -32,7 +32,7 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:sqlserver://localhost:1433;database=susan
+    url: jdbc:sqlserver://localhost:1432;database=SPT_DB;trustServerCertificate=true;
     username: SA
     password: yourStrong(!)Password
     hikari:
