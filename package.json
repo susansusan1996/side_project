@@ -39,7 +39,8 @@
     "java:war:dev": "npm run java:war -- -Pdev,webapp",
     "java:war:prod": "npm run java:war -- -Pprod",
     "prettier:check": "prettier --check \"{,src/**/}*.{md,json,yml,html,java}\"",
-    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml,html,java}\""
+    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml,html,java}\"",
+    "start": "node index.js"
   },
   "config": {
     "backend_port": "8082",
